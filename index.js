@@ -1,5 +1,7 @@
-const hello = () => {
-    console.log("Welcome to NodeJS!");
-  };
-  
-  hello();
+const hello = 'Hello Node.js!'
+
+const returnHello = () => {
+  console.log(hello)
+}
+
+returnHello()
